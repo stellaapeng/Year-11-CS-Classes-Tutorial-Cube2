@@ -21,10 +21,6 @@ public class Cube2 {
         return basicCube.getSide();
     }
 
-    public void setSide(int side) {
-        basicCube.setSide(side);
-    }
-
     //the following methods have been started for you, but need to be completed
     public int calculateVolume() { return 0;}
     public int calculateSurfaceArea() { return 0;}
@@ -32,6 +28,6 @@ public class Cube2 {
     public Cube2 minus(Cube2 otherCube) { return new Cube2(); }
 
     public String toString() {
-        return basicCube.toString().replace("}", ", color=\"" + color + "\"}");
+        return basicCube.toString();
     }
 }
